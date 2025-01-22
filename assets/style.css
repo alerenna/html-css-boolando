@@ -1,6 +1,84 @@
+/* Common */
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+:root
+{
+    --zlnd-var-primary-bg:#FF6900;
+    --zlnd-var-secondary-bg: #1A1A1A;
+    --zlnd-var-accent-1: #FF0000;
+    --zlnd-var-accent-2: #008000;
+    --zlnd-var-details: #000000;
+    --zlnd-var-bg: white;
+}
+
+.d-flex
+{
+    display: flex;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+i
+{
+    color: white;
+}
+
+/* Utilities */
+a
+{
+    text-decoration: none;
+    color: var(--zlnd-var-bg);
+}
+
+/* Typography */
+
+
+/* Header */
+header
+{
+    background-color: var(--zlnd-var-primary-bg);
+    padding: 1rem 0;
+    box-shadow: 2px 2px 1.5px #dedede;
+
+    .logo
+    {
+    img
+        {
+            height: 1.5rem;
+        }
+    
+    }
+
+    .user-menu,
+    .primary-nav
+    {
+        flex-grow: 1;
+    }
+
+    .user-menu
+    {
+        text-align: end;
+    }
+
+    .primary-nav
+    {
+        font-size: 14px;
+    }
+}
+
+/* Main */
+main{
+    
+}
+
+/* Footer */
