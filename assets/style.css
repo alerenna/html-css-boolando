@@ -45,6 +45,9 @@ header
     background-color: var(--zlnd-var-primary-bg);
     padding: 1rem 0;
     box-shadow: 2px 2px 1.5px #dedede;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 
     .logo
     {
