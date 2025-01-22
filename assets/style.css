@@ -80,7 +80,12 @@ header
 /* Main */
 main
 {
-    padding: 5rem;
+    padding: 5rem 0;
+
+    .raw
+    {
+        justify-content: space-between;
+    }
 
     .picture-box
     {
