@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:Arial, Helvetica, sans-serif
 }
 
 :root
@@ -28,10 +28,6 @@
     margin: auto;
 }
 
-i
-{
-    color: white;
-}
 
 /* Utilities */
 a
@@ -74,11 +70,93 @@ header
     {
         font-size: 14px;
     }
+
+    i
+    {
+        color: var(--zlnd-var-bg);
+    }
 }
 
 /* Main */
-main{
-    
+main
+{
+    padding: 5rem;
+
+    .picture-box
+    {
+        height: 20rem;
+        position: relative;
+
+        .heart
+        {
+            background-color: var(--zlnd-var-bg);
+            width: 25px;
+            text-align: center;
+            font-size: 10px;
+            padding: 0.5rem;
+            color: var(--zlnd-var-details);
+            position: absolute;
+            top:0.4rem;
+            left: 12.3rem;    
+        }
+
+        .discount
+        {
+            background-color: var(--zlnd-var-accent-1);
+            width: 35px;
+            text-align: center;
+            font-size: 10px;
+            padding: 0.2rem;
+            color: var(--zlnd-var-bg);
+            position: absolute;
+            top: 18rem;
+        }
+
+        .green
+        {
+            background-color: var(--zlnd-var-accent-2);
+            width: 70px;
+            text-align: center;
+            font-size: 10px;
+            padding: 0.2rem;
+            color: var(--zlnd-var-bg);
+            position: absolute;
+            top: 18rem;
+            left:2.3rem;
+            z-index: 3;
+        }
+
+
+
+    }
+
+    .brand
+    {
+        font-size: 10px;
+        margin-top: 0.5rem;
+    }
+        
+    .product-name
+    {
+        font-weight: bold;
+    }
+
+    .price
+    {
+        font-size: 10px;
+
+        .price-discounted
+        {
+            color: var(--zlnd-var-accent-1);
+        }
+        
+        .price-normal
+        {
+            text-decoration: line-through;
+        }
+    }
+
+
 }
 
 /* Footer */
